@@ -4,37 +4,59 @@
 		<style>
 		@font-face { font-family: MonlyLite; src: url('./static/fonts/monly-lite-light.ttf'); } 
 		@font-face { font-family: MonlyLite; font-weight: bold; src: url('./static/fonts/monly-lite-bold.ttf'); } 
-		.message {
-		  max-height: 100%;
-		}
-		.info {
-		  margin: 0 auto; 
-		  text-align: center;
+		body {
 		  font-family: MonlyLite, sans-serif;
-		  font-size: xx-large;
-		  font-weight: bold;
-		  font-stretch: expanded;
-		  color: OrangeRed;
-		  word-break: normal;
+		}
+		.content {
+		  max-height: 100%;
 		}
 		.center {
 		  margin: 0 auto; 
 		  text-align: center;
 		}
+		.orange {
+		  color: OrangeRed;
+		}
+		.blue {
+		  color: Blue;
+		}
+		.info {
+		  font-weight: bold;
+		  font-stretch: expanded;
+		  word-break: normal;
+		}
+		.readable {font-family: Verdana, sans-serif;}
+		.list li {
+		  word-break: normal;
+		  color: Blue;
+		}
+		.banner {
+		  font-size: xx-large;
+		}
+		.message {
+		  font-size: x-large;
+		}
 		.images img {
 		  width: auto;
-		  height: 90%;
+		  height: 70%;
 		}
 		.box { border: 2px solid black; }
 		</style>
 	</head>
 	<body>
-		<p class="message">
+		<p class="content">
 			<div class="images center">
 				<img src="./static/img/image.png" alt="AB + AB logo" class="responsive center" width="1460" height="1658"/>
 				<img src="./static/img/text.png" alt="AB + AB invitation" class="responsive center" width="1270" height="1652"/>
 			</div>
-			<div class="info center">Внимание! При приближении мероприятия следите за оповещениями на этой странице!</div>
+			<div class="info orange banner center">Uzmanibu! Внимание! Attention! Uwaga!</div>
+			<div class="info orange message center">Следите за обновлениями на этой странице! Здесь будет добавляться новая информация по мероприятию.</div>
+			<ul class="readable list">
+				<li>Если до августа правительство не одумается, то торжество придётся отменить. Информция об этом обязательно появится тут.</li>
+				<li>Мы хотим сделать нашу свадьбу максимально неформальной, не загружая ни нас, ни вас лишними церемониями. Правда пока не знаем, как это сделать )))</li>
+				<li>Чтобы облегчить выбор одежды мы придумаем дресс-код. Правда звучит смешно "облегчить" и "дресс-код"?! ))) Но он будет максимально простой для исполнения. Бонус: его можно проигнорировать.</li>
+				<li>Мы люди практичные и непрактичные одноврменно. Простыни, сервизы и кухонные приборы дарить не надо. Лучше, если вы поможете сделать этот праздник для нас. Поэтому деньги будут лучше решение.</li>
+			</ul>
 		</p>
 	</body>
 </html>
