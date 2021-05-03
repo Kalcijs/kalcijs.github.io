@@ -1,3 +1,4 @@
+@font-face { font-family: Supernettcn; src: url('./fonts/Supernettcn-LightCondensed.otf'); } 
 @font-face { font-family: Champignon; src: url('./fonts/Champignon.otf'); } 
 @font-face { font-family: MonlyLite; src: url('./fonts/monly-lite-light.ttf'); } 
 @font-face { font-family: MonlyLite; font-weight: bold; src: url('./fonts/monly-lite-bold.ttf'); } 
@@ -5,7 +6,7 @@ body {
   font-family: MonlyLite, Candara, Calibri, Segoe, Segoe UI, Optima, sans-serif;
 }
 body.lvfont {
-  font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  font-family: Supernettcn, Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
 }
 .content {
   max-height: 100%;
@@ -28,10 +29,10 @@ body.lvfont {
   text-align: center;
 }
 .orange {
-  color: OrangeRed;
+  color: #F15F23;
 }
 .blue {
-  color: Blue;
+  color: #1C5194;
 }
 .info {
   font-weight: bold;
@@ -41,17 +42,25 @@ body.lvfont {
 .readable {font-family: Verdana, sans-serif;}
 .list li {
   word-break: normal;
-  color: Blue;
   margin-left: 1em;
   margin-right: 1em;
   padding-top: 1em;
 }
 .banner {
-  margin-top: 1em;
+  margin-top: 16px;
   font-size: xx-large;
 }
 .message {
   font-size: x-large;
+}
+body.lvfont .banner {
+  font-variant: all-small-caps;
+  font-size: 38px;
+}
+body.lvfont .message {
+  font-variant: all-small-caps;
+  margin: 0px 10px;
+  font-size: 30px;
 }
 .logo img {
   width: 92%;
@@ -80,7 +89,8 @@ body.lvfont {
 }
 .signature { 
   padding-top: 15px;
-  padding-left: 2em;
+  padding-right: 10px;
+  text-align: right;
   font-family: Champignon, sans-serif;
   font-size: 460%;
 }
