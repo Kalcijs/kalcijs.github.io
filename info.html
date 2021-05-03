@@ -1,0 +1,91 @@
+<html>
+	<head>
+		<title>AB + AB Info</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+		@font-face { font-family: MonlyLite; src: url('./static/fonts/monly-lite-light.ttf'); } 
+		@font-face { font-family: MonlyLite; font-weight: bold; src: url('./static/fonts/monly-lite-bold.ttf'); } 
+		body {
+		  font-family: MonlyLite, sans-serif;
+		}
+		.content {
+		  max-height: 100%;
+		}
+		.left {
+		  float: left;
+		  width: 45%;
+		}
+		.right {
+		  float: left;
+		  width: 45%;
+		}
+		.content:after {
+		  content: "";
+		  display: table;
+          clear: both;
+		}
+		.center {
+		  margin: 0 auto; 
+		  text-align: center;
+		}
+		.orange {
+		  color: OrangeRed;
+		}
+		.blue {
+		  color: Blue;
+		}
+		.info {
+		  font-weight: bold;
+		  font-stretch: expanded;
+		  word-break: normal;
+		}
+		.readable {font-family: Verdana, sans-serif;}
+		.banner {
+		  margin-top: 1em;
+		  font-size: xx-large;
+		}
+		.message {
+		  font-size: x-large;
+		}
+		.images img {
+			width: 80%;
+			height: auto;
+			-webkit-transform: scale(1);
+			transform: scale(1);
+			-webkit-transition: .3s ease-in-out;
+			transition: .3s ease-in-out;
+		}
+		.images:hover img {
+			-webkit-transform: scale(1.3);
+			transform: scale(1.3);
+		}
+		.box { border: 2px solid black; }
+		@media screen and (max-width: 760px) {
+		  .left {
+		    width: 100%;
+		  }
+		  .right {
+		    width: 100%;
+		  }
+		}
+		</style>
+	</head>
+	<body>
+		<p class="content">
+			<div class="left">
+				<div class="images center">
+					<a href="https://goo.gl/maps/xjyHAmZCW4XaHzh98">
+						<img src="./static/img/ceremony.png" alt="ceremony link" class="responsive center" width="1000" height="280"/>
+					</a>
+				</div>
+			</div>
+			<div class="right">
+				<div class="images center">
+					<a href="https://goo.gl/maps/TF9QMJvQGAThGHpg9">
+						<img src="./static/img/party.png" alt="party link" class="responsive center" width="1000" height="280"/>
+					</a>
+				</div>
+			</div>
+		</p>
+	</body>
+</html>

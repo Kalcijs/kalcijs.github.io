@@ -1,5 +1,6 @@
 <html>
 	<head>
+		<title>AB + AB</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<style>
 		@font-face { font-family: MonlyLite; src: url('./static/fonts/monly-lite-light.ttf'); } 
@@ -47,6 +48,7 @@
 		  padding-top: 1em;
 		}
 		.banner {
+		  margin-top: 1em;
 		  font-size: xx-large;
 		}
 		.message {
@@ -60,6 +62,18 @@
 		  width: 90%;
 		  height: auto;
 		}
+		.language {
+		  position: absolute;
+		  top: 12px;
+		  right: 1em;
+		  display: block;
+		  float: right;
+		  text-align: right;
+		}
+		.language img {
+		  height: 24px;
+		  width: auto;
+		}
 		.box { border: 2px solid black; }
 		@media screen and (max-width: 760px) {
 		  .left {
@@ -72,14 +86,21 @@
 		</style>
 	</head>
 	<body>
+		<div class="language">
+			<a href="lv.html">
+				<img src="./static/icon/lv.png" alt="lv" width="64" height="64"/>
+			</a>
+			<a href="ru.html">
+				<img src="./static/icon/ru.png" alt="ru" width="64" height="64"/>
+			</a>
+		</div>
 		<p class="content">
 			<div class="left">
 				<div class="logo center">
-					<img src="./static/img/image.png" alt="AB + AB logo" class="responsive center" width="1460" height="1658"/>
+					<img src="./static/img/image.png" alt="AB + AB logo" class="responsive center" width="1422" height="1576"/>
 				</div>
 			</div>
 			<div class="right">
-				<br/><br/><br/>
 				<div class="info orange banner center">Uzmanibu! Внимание! Attention! Uwaga!</div>
 				<div class="info orange message center">Следите за обновлениями на этой странице! Здесь будет добавляться новая информация по мероприятию.</div>
 				<ul class="readable list">
@@ -88,6 +109,9 @@
 					<li>Чтобы облегчить выбор одежды мы придумаем дресс-код. Правда звучит смешно "облегчить" и "дресс-код"?! ))) Но он будет максимально простой для исполнения. Бонус: его можно проигнорировать.</li>
 					<li>Мы люди практичные и непрактичные одноврменно. Простыни, сервизы и кухонные приборы дарить не надо. Лучше, если вы поможете сделать этот праздник для нас. Поэтому деньги будут лучшим решением.</li>
 				</ul>
+				<div class="logo center">
+					<img src="./static/img/signature.png" alt="Signature" class="responsive center" width="1740" height="364"/>
+				</div>
 			</div>
 		</p>
 	</body>

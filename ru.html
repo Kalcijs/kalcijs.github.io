@@ -1,0 +1,118 @@
+<html>
+	<head>
+		<title>AB + AB</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+		@font-face { font-family: MonlyLite; src: url('./static/fonts/monly-lite-light.ttf'); } 
+		@font-face { font-family: MonlyLite; font-weight: bold; src: url('./static/fonts/monly-lite-bold.ttf'); } 
+		body {
+		  font-family: MonlyLite, sans-serif;
+		}
+		.content {
+		  max-height: 100%;
+		}
+		.left {
+		  float: left;
+		  width: 44%;
+		}
+		.right {
+		  float: left;
+		  width: 55%;
+		}
+		.content:after {
+		  content: "";
+		  display: table;
+          clear: both;
+		}
+		.center {
+		  margin: 0 auto; 
+		  text-align: center;
+		}
+		.orange {
+		  color: OrangeRed;
+		}
+		.blue {
+		  color: Blue;
+		}
+		.info {
+		  font-weight: bold;
+		  font-stretch: expanded;
+		  word-break: normal;
+		}
+		.readable {font-family: Verdana, sans-serif;}
+		.list li {
+		  word-break: normal;
+		  color: Blue;
+		  margin-left: 1em;
+		  margin-right: 1em;
+		  padding-top: 1em;
+		}
+		.banner {
+		  margin-top: 1em;
+		  font-size: xx-large;
+		}
+		.message {
+		  font-size: x-large;
+		}
+		.logo img {
+		  width: 98%;
+		  height: auto;
+		}
+		.invite img {
+		  width: 90%;
+		  height: auto;
+		}
+		.language {
+		  position: absolute;
+		  top: 12px;
+		  right: 1em;
+		  display: block;
+		  float: right;
+		  text-align: right;
+		}
+		.language img {
+		  height: 24px;
+		  width: auto;
+		}
+		.box { border: 2px solid black; }
+		@media screen and (max-width: 760px) {
+		  .left {
+		    width: 100%;
+		  }
+		  .right {
+		    width: 100%;
+		  }
+		}
+		</style>
+	</head>
+	<body>
+		<div class="language">
+			<a href="lv.html">
+				<img src="./static/icon/lv.png" alt="lv" width="64" height="64"/>
+			</a>
+			<a href="ru.html">
+				<img src="./static/icon/ru.png" alt="ru" width="64" height="64"/>
+			</a>
+		</div>
+		<p class="content">
+			<div class="left">
+				<div class="logo center">
+					<img src="./static/img/image.png" alt="AB + AB logo" class="responsive center" width="1422" height="1576"/>
+				</div>
+			</div>
+			<div class="right">
+				<div class="info orange banner center">Uzmanibu! Внимание! Attention! Uwaga!</div>
+				<div class="info orange message center">Следите за обновлениями на этой странице! Здесь будет добавляться новая информация по мероприятию.</div>
+				<ul class="readable list">
+					<li>Если до августа правительство не одумается, то торжество придётся отменить. Информция об этом обязательно появится тут.</li>
+					<li>Мы хотим сделать нашу свадьбу максимально неформальной, не загружая ни нас, ни вас лишними церемониями. Правда пока не знаем, как это сделать )))</li>
+					<li>Чтобы облегчить выбор одежды мы придумаем дресс-код. Правда звучит смешно "облегчить" и "дресс-код"?! ))) Но он будет максимально простой для исполнения. Бонус: его можно проигнорировать.</li>
+					<li>Мы люди практичные и непрактичные одноврменно. Простыни, сервизы и кухонные приборы дарить не надо. Лучше, если вы поможете сделать этот праздник для нас. Поэтому деньги будут лучшим решением.</li>
+				</ul>
+				<div class="logo center">
+					<img src="./static/img/signature.png" alt="Signature" class="responsive center" width="1740" height="364"/>
+				</div>
+			</div>
+		</p>
+	</body>
+</html>
