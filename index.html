@@ -2,16 +2,39 @@
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<style>
-		.responsive {
-		  width: auto;
-		  height: 100%;
+		@font-face { font-family: MonlyLite; src: url('./static/fonts/monly-lite-light.ttf'); } 
+		@font-face { font-family: MonlyLite; font-weight: bold; src: url('./static/fonts/monly-lite-bold.ttf'); } 
+		.message {
+		  max-height: 100%;
 		}
+		.info {
+		  margin: 0 auto; 
+		  text-align: center;
+		  font-family: MonlyLite, sans-serif;
+		  font-size: xx-large;
+		  font-weight: bold;
+		  font-stretch: expanded;
+		  color: OrangeRed;
+		  word-break: normal;
+		}
+		.center {
+		  margin: 0 auto; 
+		  text-align: center;
+		}
+		.images img {
+		  width: auto;
+		  height: 90%;
+		}
+		.box { border: 2px solid black; }
 		</style>
 	</head>
 	<body>
-		<center>
-			<img src="./static/img/image.png" alt="AB + AB logo" class="responsive" width="1460" height="1658"/>
-			<img src="./static/img/text.png" alt="AB + AB invitation" class="responsive" width="1270" height="1652"/>
-		</center>
+		<p class="message">
+			<div class="images center">
+				<img src="./static/img/image.png" alt="AB + AB logo" class="responsive center" width="1460" height="1658"/>
+				<img src="./static/img/text.png" alt="AB + AB invitation" class="responsive center" width="1270" height="1652"/>
+			</div>
+			<div class="info center">Внимание! При приближении мероприятия следите за оповещениями на этой странице!</div>
+		</p>
 	</body>
 </html>
